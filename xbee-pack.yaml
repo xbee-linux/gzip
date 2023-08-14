@@ -25,9 +25,7 @@ var:
   version: "1.10"
 
 provision:
-  - url:
-      from: https://ftp.gnu.org/gnu/gzip/gzip-{{ .version }}.tar.xz
-      todir: "{{ .xbee.src }}"
+  url: https://ftp.gnu.org/gnu/gzip/gzip-{{ .version }}.tar.xz
 
 build:
   - shell:
