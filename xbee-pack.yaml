@@ -22,7 +22,8 @@ description: |
     znew: Re-compresses files from compress format to gzip format—.Z to .gz
 
 var:
-  version: "1.10"
+  xbee:
+    version: "1.10"
 
 provision:
   url: https://ftp.gnu.org/gnu/gzip/gzip-{{ .version }}.tar.xz
