@@ -1,7 +1,5 @@
 schema-version: 1.0
 
-type: builder
-
 description: |
   The Gzip package contains programs for compressing and decompressing files.
   Installed programs: gunzip, gzexe, gzip, uncompress (hard link with gunzip), zcat, zcmp, zdiff, zegrep, zfgrep, zforce, zgrep, zless, zmore, and znew
